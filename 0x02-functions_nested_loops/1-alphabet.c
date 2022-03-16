@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * main - Entry point
- * Return: Always 0 (sucess)
+ * print_alphabet - Entry point
+ * Description: Prints the alphabet with _putchar
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		_putchar('\n');
 	}
-	return (0);
+	_putchar('\n');
 }
