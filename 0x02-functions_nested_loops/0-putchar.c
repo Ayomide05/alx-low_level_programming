@@ -13,7 +13,7 @@ int main(void)
 	{
 		c = s[i];
 		_putchar(c);
-		i++
+		i++;
 	}
 	return (0);
 }
